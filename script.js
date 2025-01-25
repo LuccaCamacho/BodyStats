@@ -24,16 +24,16 @@ document.getElementById("Calcular").addEventListener("click", function() {
 
     // Corrigir a variável e melhorar o texto das recomendações
     if (gordura < 10) {
-        recomendacaoText = "Seu percentual de gordura está muito baixo. Idealmente, para homens, a faixa ideal seria entre 10% a 20%.";
+        recomendacaoText = "Seu percentual de gordura está muito baixo. Idealmente, a faixa ideal seria entre 10% a 20%.";
         recomendacaoClass = "MuitoRuim";
     } else if (gordura >= 10 && gordura <= 20) {
-        recomendacaoText = "Seu percentual de gordura está ótimo! Para homens, a faixa ideal é entre 10% e 20%.";
+        recomendacaoText = "Seu percentual de gordura está ótimo! A faixa ideal é entre 10% e 20%.";
         recomendacaoClass = "Bom";
     } else if (gordura > 20 && gordura <= 30) {
-        recomendacaoText = "Seu percentual de gordura está um pouco alto. Para homens, a faixa ideal é entre 10% e 20%.";
+        recomendacaoText = "Seu percentual de gordura está um pouco alto. A faixa ideal é entre 10% e 20%.";
         recomendacaoClass = "Ruim";
     } else {
-        recomendacaoText = "Seu percentual de gordura está muito alto. Para homens, a faixa ideal é entre 10% e 20%.";
+        recomendacaoText = "Seu percentual de gordura está muito alto. A faixa ideal é entre 10% e 20%.";
         recomendacaoClass = "MuitoRuim";
     }
 
