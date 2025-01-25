@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodyStats</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="Cabeça">
+        <!--Parte de cima da página-->
+        <h1>Bem-vindo ao BodyStats! 🚀</h1>
+        <h2>A forma mais fácil de fazer sua avaliação corporal</h2>
+        <h3>Apenas algumas informações e te passaremos o seu % de Gordura</h3>
+        <button id="btnIniciar">Vamos Nessa</button>
+    </div>
+
+    <div id="Corpo">
+        <h2>Precisamos de algumas informações suas!</h2>
+        <h3>Fica tranquilo, apenas você verá isso, não temos backend 🫶🏻</h3>
+        <!-- Perguntas -->
+        <label for="TipoSexo">Seu Sexo:</label>
+        <select id="Sexo">
+            <option value="Vazio"></option>
+            <option value="Homem">Homem</option>
+            <option value="Mulher">Mulher</option>
+        </select>
+
+        <label for="Peso">Peso (kg):</label>
+        <input type="number" id="Peso" placeholder="Digite o seu peso!">
+
+        <label for="Altura">Altura (cm):</label>
+        <input type="number" id="Altura" placeholder="Digite a sua altura!">
+
+        <label for="Idade">Idade:</label>
+        <input type="number" id="Idade" placeholder="Digite a sua idade!">
+
+        <label for="AtividadeFisica">Quantas vezes você pratica atividade física por semana:</label>
+        <select id="AtividadeFisica">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6+">6+</option>
+        </select>
+
+        <button id="Calcular">Calcular</button>
+
+    </div>
+
+    <div id="Perna">
+        <h2>👇🏻 Seu % de Gordura 👇🏻</h2>
+        <p id="Resultado">Porcentual Aqui!</p>
+    </div>
+
+    <div id="Pe">
+        <p>Lembrando sempre que, esse cálculo é apenas uma estimativa rápida, apenas para você ter uma noção. Para informações mais precisas, procure um profissional da saúde.</p>
+    </div>
+    <script src="./script.js" defer></script>
+</body>
+</html>

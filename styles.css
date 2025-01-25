@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Orbitron', sans-serif;
+    color: #303030;
+    background-color: #f7fd91;
+}
+
+#Cabeça h1 {
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+#Cabeça h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#Cabeça h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+
+#Cabeça button {
+    background-color: #261323;
+    color: #f7fd91;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 70px;
+    margin-top: 20px;
+}
+
+#Cabeça button:hover {
+    background-color: #fa7a32;
+    color: #261323;
+    transition: 0.5s;
+}
+
+#Corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+#Corpo h2 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#Corpo h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+#Corpo label {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#Corpo button {
+    margin-top: 20px;
+    background-color: #261323;
+    color: #f7fd91;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 70px;
+}
+
+#Corpo button:hover {
+    background-color: #fa7a32;
+    color: #261323;
+    transition: 0.5s;
+}
+
+#Perna {
+    padding-top: 20px;
+}
+
+#Perna p {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#Recomendacao {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.MuitoRuim {
+    color: red;
+}
+
+.Ruim {
+    color: orange;
+}
+
+.Bom {
+    color: green;
+}
+
+
+
